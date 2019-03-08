@@ -16,6 +16,7 @@
 > * The duration of one minute on the system clock would never be more than an hour
 
 ### Falsehoods programmers believe about geography
+
 > * Places have only one official name
 > * Places have only one official name per language
 > * Place names follow the character rules of the language
@@ -26,7 +27,8 @@
 > * Street adresses contain street names
 > * Language codes will match the country code of the country they are associated with
 
-### Falsehoods Programmers Believe About Names
+### Falsehoods programmers believe about names
+
 > * An address will start with, or at least include, a building number.
 > * When there is a building number, it will be all-numeric.
 > * No buildings are numbered zero 
@@ -59,3 +61,24 @@
 > * An address require both a city and a country
 > * You can't have two towns cities with the same name in the same country
 > * Customers will have a fixed address with a fixed location
+
+### Falsehoods programmers believe about map
+
+> * All coordinates are in latitude/longitude
+> * If you know the latitude/longitude you can be certain of exactly where you are
+> * Spatial is special
+> * The earth is round
+> * The earth is ellipsoidal
+> * The GPS-satellites know where I am
+> * There is a single, right, map projection
+> * Scale numbers works on a screen
+> * There are no good alternatives to Google Maps
+> * Web Mercator works for all purposes
+> * The shortest path between two points is a straight line
+> * All programmers agree on the ordering of latitude and longitude pairs
+> * Given a paper map I can always digitize and georeference it
+> * My background map will be better if I cache it, always!
+> * GIS software is always expensive
+> * The whole world is mapped, thouroughly
+> * Looking up a street address and get it’s position is easy
+> * Offline maps is as easy as Goole Maps

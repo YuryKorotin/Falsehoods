@@ -14,4 +14,4 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about time 
 - [X] Falsehoods about geography
 - [x] Falsehoods about addresses
-- [ ] Falsehoods about maps
+- [x] Falsehoods about maps
