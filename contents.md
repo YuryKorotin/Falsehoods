@@ -31,54 +31,67 @@
 
 > * An address will start with, or at least include, a building number.
 > * When there is a building number, it will be all-numeric.
-> * No buildings are numbered zero 
-> * Well, at the very least no buildings have negative numbers
-> * We can put those funny numbers into the building name field, as no buildings have both a name and a funny number
-> * When there's a building name, there won't be a building number (or vice-versa)
-> * A building number will only be used once per street
+> * No buildings are numbered zero.
+> * Well, at the very least no buildings have negative numbers.
+> * We can put those funny numbers into the building name field, as no buildings have both a name and a funny number.
+> * When there's a building name, there won't be a building number (or vice-versa).
+> * A building number will only be used once per street.
 > * When there's line with a number in an address, it's the building number.
-> * A building will only have one number
-> * The number of buildings is the difference between the highest and lowest building numbers
-> * If the addresses on the left of the road are even, the addresses on the right must be odd
-> * A building name won't also be a number
-> * You can omit leading zeros
-> * A street name won't include a number
-> * Numbers in street names are expressed as words, not digits
-> * When there's a numbered street and a house number, there will be a separator between them
-> * When addresses do have a descriptor there will only be one
-> * Addresses do have a descriptor it will be at the end
-> * You wouldn't name a town Street
-> * Street names don't recurr in the same city
-> * Street names don't recurr in close proximity
-> * An address will be comprised of road names
-> * A road will have a name
-> * A road will only have one name
-> * Addresses will only have one street
-> * Addresses will have a street
-> * An address will include a state
+> * A building will only have one number.
+> * The number of buildings is the difference between the highest and lowest building numbers.
+> * If the addresses on the left of the road are even, the addresses on the right must be odd.
+> * A building name won't also be a number.
+> * You can omit leading zeros.
+> * A street name won't include a number.
+> * Numbers in street names are expressed as words, not digits.
+> * When there's a numbered street and a house number, there will be a separator between them.
+> * When addresses do have a descriptor there will only be one.
+> * Addresses do have a descriptor it will be at the end.
+> * You wouldn't name a town Street.
+> * Street names don't recurr in the same city.
+> * Street names don't recurr in close proximity.
+> * An address will be comprised of road names.
+> * A road will have a name.
+> * A road will only have one name.
+> * Addresses will only have one street.
+> * Addresses will have a street.
+> * An address will include a state.
 > * Addresses will have something other than the organisation and city name.
-> * An address will have a county
-> * An address require both a city and a country
-> * You can't have two towns cities with the same name in the same country
-> * Customers will have a fixed address with a fixed location
+> * An address will have a county.
+> * An address require both a city and a country.
+> * You can't have two towns cities with the same name in the same country.
+> * Customers will have a fixed address with a fixed location.
 
 ### Falsehoods programmers believe about map
 
-> * All coordinates are in latitude/longitude
-> * If you know the latitude/longitude you can be certain of exactly where you are
-> * Spatial is special
-> * The earth is round
-> * The earth is ellipsoidal
-> * The GPS-satellites know where I am
-> * There is a single, right, map projection
-> * Scale numbers works on a screen
-> * There are no good alternatives to Google Maps
-> * Web Mercator works for all purposes
-> * The shortest path between two points is a straight line
-> * All programmers agree on the ordering of latitude and longitude pairs
-> * Given a paper map I can always digitize and georeference it
-> * My background map will be better if I cache it, always!
-> * GIS software is always expensive
-> * The whole world is mapped, thouroughly
-> * Looking up a street address and get it’s position is easy
-> * Offline maps is as easy as Goole Maps
+> * All coordinates are in latitude/longitude.
+> * If you know the latitude/longitude you can be certain of exactly where you are.
+> * Spatial is special.
+> * The earth is round.
+> * The earth is ellipsoidal.
+> * The GPS-satellites know where I am.
+> * There is a single, right, map projection.
+> * Scale numbers works on a screen.
+> * There are no good alternatives to Google Maps.
+> * Web Mercator works for all purposes.
+> * The shortest path between two points is a straight line.
+> * All programmers agree on the ordering of latitude and longitude pairs.
+> * Given a paper map I can always digitize and georeference it.
+> * My background map will be better if I cache it, always!.
+> * GIS software is always expensive.
+> * The whole world is mapped, thouroughly.
+> * Looking up a street address and get it’s position is easy.
+> * Offline maps is as easy as Goole Maps.
+
+### Falsehoods programmers believe about language
+
+> * Translating my application into other languages isn’t important
+> * Translating a single word of English is simple.
+> * Short words in English are short in other languages.
+> * Translating a whole sentence of English is simple.
+> * Templating sentences adds only a little complexity.
+> * If I make sure to group things like articles in with nouns, that’ll sort gendered languages.
+> * I can write enough grammatical metadata to be able to stitch together coherent sentences in all the languages I’m targeting.
+> * If I allow for two versions of every English sentence, I’ll be OK for gendered languages.
+> * At least templating users’ names in is safe.
+> * I can reword my copy to avoid these kinds of pitfalls.
