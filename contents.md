@@ -82,3 +82,33 @@
 > * The whole world is mapped, thouroughly
 > * Looking up a street address and get it’s position is easy
 > * Offline maps is as easy as Goole Maps
+
+### Falsehoods programmers believe about about
+
+> * Data on the network cannot be altered.
+> * Encrypted data on the network cannot be altered.
+> * Data cannot be accidentally corrupted, because TCP has checksums and Ethernet has CRCs
+> * it's inside my perimeter firewall, that means I have total control over it (@armorguy)
+> * If it doesn't return an error, then send() sent all the data that was asked of it.
+> * Packets arrive in the order in which they were sent.
+> * Segment boundaries on a TCP stream are meaningful to the application.
+> * Segment boundaries on a TCP stream are not meaningful to the application.
+> * If you can't ping the target, then it doesn't exist. (@jjarmoc)
+> * If you can ping the target, then it does exist.
+> * TCP RSTs come from end-nodes.
+> * Bytes must be "swapped" from the network byte-order to the host CPU byte-order.
+> * It's an internal web app -- outsiders won't be able to discover where it is (@biosshadow)
+> * The DHCP address will be the same after a reboot (@shewfig)
+> * The DHCP address will remain the same until the next reboot.
+> * Well, it'll last a long time between changes
+> * Packets/PDUs go up or down the network stack, never sideways. (@maradydd)
+> * The IPv4 header is 20 bytes long starting with 0x45 (options are so rare we don't have to worry about them) (@shewfig)
+> * The DHCP server and local router are the same (@schrotthaufen)
+> * There is no IPv6 on my network
+> * NAT automatically blocks all inbound attacks (@shewfig)
+> * We know all the devices attached to our network at any given time (@armorguy)
+> * VLANs are just as good as physical segmentation. (@jjarmoc)
+> * Ok, VLANs aren't as good, but they are good enough for now.
+> * We have good WIPS/monitors, so we don't have rogue access-points anywhere. (@armorguy)
+> * No need to add it to the DNS; I'll remember it. (@shewfig)
+
