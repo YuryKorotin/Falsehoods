@@ -124,3 +124,32 @@
 > * Ok, VLANs aren't as good, but they are good enough for now.
 > * We have good WIPS/monitors, so we don't have rogue access-points anywhere.
 > * No need to add it to the DNS; I'll remember it.
+
+### Falsehoods programmers believe about phone numbers
+
+> * An individual has a phone number.
+> * You can make a call to any phone number.
+> * An individual has only one phone number.
+> * A phone number uniquelly identifies an individual.
+> * Phone numbers cannot be re-used.
+> * Phone numbers that are valid today will always be valid.
+> * Each country calling code corresponds to exactly one country.
+> * A phone number is dialable from anywhere
+> * You can send a text message to any phone number.
+> * Only mobile phones can receive text messages.
+> * There are only two ways to dial a phone number: domestically and from overseas.
+> * To make a number dialable, you only need to change the prefix.
+> * No prefix of a valid phone number can be a valid phone number.
+> * An invalid number will not reach an endpoint.
+> * All valid phone numbers follow the ITU specifications.
+> * All valid phone numbers belong to a country.
+> * Phone numbers contain only digits.
+> * Phone numbers are always written in ASCII.
+> * Phone numbers have only one prefix at a given time.
+> * A leading zero in numbers formatted for domestic usage can always be discarded when dialing from abroad.
+> * The country or area code of a phone number indicates the user's location, place of residence, time-zone, or preferred language.
+> * The plus sign in front of phone numbers in international format is optional, or can always be replaced by 00.
+> * Users will only store phone numbers in your product's phone number fields.
+> * Phone numbers are numbers.
+> * Phone numbering plans published by governments or telecoms represent reality.
+
