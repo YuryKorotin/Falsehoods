@@ -152,4 +152,3 @@
 > * Users will only store phone numbers in your product's phone number fields.
 > * Phone numbers are numbers.
 > * Phone numbering plans published by governments or telecoms represent reality.
-
