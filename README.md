@@ -13,9 +13,9 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about names
 - [X] Falsehoods about time 
 - [X] Falsehoods about geography
-- [x] Falsehoods about addresses
-- [x] Falsehoods about maps
-- [x] Falsehoods about language
-- [x] Falsehoods about network
-- [ ] Falsehoods about phone numbers
+- [X] Falsehoods about addresses
+- [X] Falsehoods about maps
+- [X] Falsehoods about language
+- [X] Falsehoods about network
+- [X] Falsehoods about phone numbers
 - [ ] Falsehoods About Systems of Measurement
