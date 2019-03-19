@@ -152,3 +152,23 @@
 > * Users will only store phone numbers in your product's phone number fields.
 > * Phone numbers are numbers.
 > * Phone numbering plans published by governments or telecoms represent reality.
+
+### Falsehoods programmers believe about metric systems
+
+> * There is more than one variant of the metric system.
+> * All base SI units are prefix-less.
+> * All derived metric units are derived of base SI units.
+> * Heterogenous units are of no practical use.
+> * Fractional dimensions are of no practical use.
+> * Non-metric systems have base units as well.
+> * Just as liters has decimeters so that it doesn’t need a numerical proportionality constant, pints has yardsInOneDimensionOfAPint.
+> * A gallon is treated much like a liter in their respective systems of measure.
+> * All base units are made of base dimensions. 
+> * A gallon is a gallon is a gallon. 
+> * Written out unit names are not case-sensitive.
+> * Base units always reduce to the same derived units.
+> * Written out base units should always be presented in the same order.
+> * There is no need to differentiate between absolute and relative measurements.
+> * Derived unit symbols are represented the same way across systems of measure.
+> * All units accepted for use with the SI are base ten.
+> * You will never have any namespace issues.
