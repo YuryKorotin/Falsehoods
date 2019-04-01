@@ -18,4 +18,12 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about language
 - [X] Falsehoods about network
 - [X] Falsehoods about phone numbers
-- [X] Falsehoods About Systems of Measurement
+- [X] Falsehoods about systems of Measurement
+- [ ] Falsehoods about prices 
+- [ ] Falsehoods about cars 
+- [ ] Falsehoods about video
+- [ ] Falsehoods about distributed computing
+- [ ] Falsehoods about versions
+- [ ] Falsehoods about build systems
+- [ ] Falsehoods about file paths
+- [ ] Falsehoods about REST APIs
