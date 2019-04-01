@@ -19,7 +19,7 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about network
 - [X] Falsehoods about phone numbers
 - [X] Falsehoods about systems of Measurement
-- [ ] Falsehoods about prices 
+- [X] Falsehoods about prices 
 - [ ] Falsehoods about cars 
 - [ ] Falsehoods about video
 - [ ] Falsehoods about distributed computing
