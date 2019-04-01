@@ -172,3 +172,36 @@
 > * Derived unit symbols are represented the same way across systems of measure.
 > * All units accepted for use with the SI are base ten.
 > * You will never have any namespace issues.
+
+### Falsehoods programmers believe about prices
+
+> * You can store a price in a floating point variable.
+> * All currencies are subdivided in 1/100th units (like US dollar/cents, euro/eurocents etc.).
+> * All currencies are subdivided in decimal units (like dinar/fils)
+> * All currencies currently in circulation are subdivided in decimal units. (to exclude shillings, pennies) (counter-example: MGA)
+> * All currencies are subdivided. (counter-examples: KRW, COP, JPY... Or subdivisions can be deprecated.)
+> * Prices can't have more precision than the smaller sub-unit of the currency. (e.g. gas prices)
+> * For any currency you can have a price of 1. (ZWL)
+> * Every country has its own currency. (EUR is the best example, but also Franc CFA, etc.)
+> * No country uses another's country official currency as its official currency. (many countries use USD: Ecuador, Micronesia...)
+> * Countries have only one currency.
+> * Countries have only one currency currently in circulation. (Panama officially uses both PAB and USD)
+> * I'll only deal with currencies currently in circulation anyway.
+> * All currencies have an ISO 4217 3-letter code. (The Transnistrian ruble has none, for example)
+> * All currencies have a different name. (French franc, "nouveau franc")
+> * You always put the currency symbol after the price.
+> * You always put the currency symbol before the price.
+> * You always put the currency symbol either after, or before the price, never in the middle.
+> * There's only one currency symbol for any currency. (元, 角, 分 are increasing units of the Chinese renminbi.)
+> * For a given currency, you always, but always, put the symbol in the same place.
+> * OK. But if you only use the ISO 4217 currency codes, you always put it before the price. (Hint: it depends on the language.)
+> * Before the price means on the left. (ILS)
+> * You can always use a dot (or a comma, etc.) as a decimal separator.
+> * You can always use a space (or a dot, or a comma, etc.) as a thousands separator.
+> * You separate big prices by grouping numbers in triplets (thousands). (One writes ¥1 0000)
+> * Prices at a single company will never range from five digits before the decimal to five digits after.
+> * Prices contains only digits and punctuation. (Germans can write 12,- €)
+> * A price can be at most 10^N for some value of N.
+> * Given two currencies, there is only one exchange rate between them at any given point in time.
+> * Given two currencies, there is at least one exchange rate between them at any given point in time. (restriction on export of MAD, ARS, CNY, for example)
+> * And the final one: a standalone $ character is always pronounced dollar. (It's also the peso sign.)
