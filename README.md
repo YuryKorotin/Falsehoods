@@ -20,7 +20,7 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about phone numbers
 - [X] Falsehoods about systems of Measurement
 - [X] Falsehoods about prices 
-- [ ] Falsehoods about cars 
+- [X] Falsehoods about cars 
 - [ ] Falsehoods about video
 - [ ] Falsehoods about distributed computing
 - [ ] Falsehoods about versions
