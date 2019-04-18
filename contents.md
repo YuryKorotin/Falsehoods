@@ -205,3 +205,14 @@
 > * Given two currencies, there is only one exchange rate between them at any given point in time.
 > * Given two currencies, there is at least one exchange rate between them at any given point in time. (restriction on export of MAD, ARS, CNY, for example)
 > * And the final one: a standalone $ character is always pronounced dollar. (It's also the peso sign.)
+
+### Falsehoods programmers believe about cars
+
+> * Car has four wheels.
+> * If car has more than 4 wheels it's a bus or a truck.
+> * Car has one engine.
+> * Car has one type of fuel.
+> * There is nothing else fuel-related if it's not hybrid.
+> * Car consumtion is measured in either metric (l/100km) or imperial (mpg) units.
+> * Car height is one value.
+> * Hatchbacks have 3 or 5 doors.
