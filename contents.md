@@ -216,3 +216,13 @@
 > * Car consumtion is measured in either metric (l/100km) or imperial (mpg) units.
 > * Car height is one value.
 > * Hatchbacks have 3 or 5 doors.
+
+### Falsehoods programmers believe about video decoding
+
+> * Decoding is bit-exact, so the decoder used does not affect the quality .
+> * Since H.264 decoding is bit-exact, the decoder used does not affect the quality,
+> * Hardware decoding means I don not have to worry about perfomance
+> * Hardware decoding is always faster than software decoding.
+> * A H.264 hardware decoder can decode all H.264 files.
+> * A H.264 software decoder can decode all H.264 files.
+> * Video decoding is easily parallelizable.
