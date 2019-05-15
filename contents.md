@@ -226,3 +226,35 @@
 > * A H.264 hardware decoder can decode all H.264 files.
 > * A H.264 software decoder can decode all H.264 files.
 > * Video decoding is easily parallelizable.
+
+### Falsehoods programmers believe about video playback
+> * The display's refressh rate will be an integer multiple of the video file's frame rate.
+> * The display's clock will be in sync with the audio clock.
+> * I can accurately measure the display's clock.
+> * I can accurately measure the audio clock.
+> * I can exclusively use the audio clock for timing.
+> * I can exclusively use the video clock for timing.
+> * My hardware contexts will survive the user's coffee break.
+> * My hardware contexts will never disapper in the middle of playback.
+> * I can always request a new hardware context fater my previous one disappered.
+> * It's okay to error and quit if can't request a hardware context.
+> * Hardware decoding and video playback will happen on the same device.
+> * Transferring frames from one device to another is easy
+> * The user will not notice 3:2 pulldown
+> * The user will not notice the odd dropped or duplicated frame
+> * All video frames will be unique
+> * All video frames will be decoded in order
+> * All video sources can be seeked in
+> * The user will never want to seek to non-keyframes
+> * Seeking to a position will produce the same output as decoding to a position
+> * I can seek ti a specific frame number
+> * Videos have a fixed frame rate
+> * All frame timestamps are precise
+> * All frame timestamps are precise in modern formats like .mkv
+> * All frame timestamps are monotonically increasing.
+> * All frame timestamps are monotonically increasing as long as you don't seek.
+> * All frame timestamps are unique.
+> * The duration of the final video frame is always known.
+> * Users will not notice if I skip the final video frame.
+> * Users will never want to play videos in reverse.
+> * Users will not notice if I skip a video frame when pausing.
