@@ -21,7 +21,8 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about systems of Measurement
 - [X] Falsehoods about prices 
 - [X] Falsehoods about cars 
-- [ ] Falsehoods about video
+- [X] Falsehoods about video playback
+- [ ] Falsehoods about video/image files
 - [ ] Falsehoods about distributed computing
 - [ ] Falsehoods about versions
 - [ ] Falsehoods about build systems
