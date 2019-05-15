@@ -228,7 +228,7 @@
 > * Video decoding is easily parallelizable.
 
 ### Falsehoods programmers believe about video playback
-> * The display's refressh rate will be an integer multiple of the video file's frame rate.
+> * The display's refresh rate will be an integer multiple of the video file's frame rate.
 > * The display's clock will be in sync with the audio clock.
 > * I can accurately measure the display's clock.
 > * I can accurately measure the audio clock.
@@ -236,21 +236,21 @@
 > * I can exclusively use the video clock for timing.
 > * My hardware contexts will survive the user's coffee break.
 > * My hardware contexts will never disapper in the middle of playback.
-> * I can always request a new hardware context fater my previous one disappered.
+> * I can always request a new hardware context after my previous one disappered.
 > * It's okay to error and quit if can't request a hardware context.
 > * Hardware decoding and video playback will happen on the same device.
-> * Transferring frames from one device to another is easy
-> * The user will not notice 3:2 pulldown
-> * The user will not notice the odd dropped or duplicated frame
-> * All video frames will be unique
-> * All video frames will be decoded in order
-> * All video sources can be seeked in
-> * The user will never want to seek to non-keyframes
-> * Seeking to a position will produce the same output as decoding to a position
-> * I can seek ti a specific frame number
-> * Videos have a fixed frame rate
-> * All frame timestamps are precise
-> * All frame timestamps are precise in modern formats like .mkv
+> * Transferring frames from one device to another is easy.
+> * The user will not notice 3:2 pulldown.
+> * The user will not notice the odd dropped or duplicated frame.
+> * All video frames will be unique.
+> * All video frames will be decoded in order.
+> * All video sources can be seeked in.
+> * The user will never want to seek to non-keyframes.
+> * Seeking to a position will produce the same output as decoding to a position.
+> * I can seek to a specific frame number.
+> * Videos have a fixed frame rate.
+> * All frame timestamps are precise.
+> * All frame timestamps are precise in modern formats like .mkv.
 > * All frame timestamps are monotonically increasing.
 > * All frame timestamps are monotonically increasing as long as you don't seek.
 > * All frame timestamps are unique.
