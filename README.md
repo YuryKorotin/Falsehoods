@@ -23,7 +23,7 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about cars 
 - [X] Falsehoods about video decoding 
 - [X] Falsehoods about video playback
-- [ ] Falsehoods about video/image files
+- [X] Falsehoods about video/image files
 - [ ] Falsehoods about image scaling
 - [ ] Falsehoods about color spaces
 - [ ] Falsehoods about color conversion

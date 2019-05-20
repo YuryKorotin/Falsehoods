@@ -258,3 +258,34 @@
 > * Users will not notice if I skip the final video frame.
 > * Users will never want to play videos in reverse.
 > * Users will not notice if I skip a video frame when pausing.
+
+### Falsehoods programmers believe about video/image files
+> * All video files have 8-bit per channel color.
+> * All video files have 8-bit or 10-bit per channel color.
+> * Fine, but at least all channels are going to have the same number of bits.
+> * All samples are going to fit into a 32-bit integer.
+> * Every pixel consists of three samples.
+> * Every pixel consists of three or four samples.
+> * Fine, every pixel consists of n samples.
+> * All images files are sRGB
+> * All video files are BT.601 or BT.709.
+> * All image files are either sRGB or contain an ICC profile.
+> * 4:2:0 is the only way to subsample images.
+> * All image files contain correct tags indicating their color space.
+> * Interlaced video files no longer exist.
+> * I can detect whether a file is interlaced or not.
+> * The chroma location is the same for every YCbCr file.
+> * All HD videos are BT.709.
+> * Video files will have the same refresh rate throughout the stream.
+> * Video files will have the same resolution throughout the stream.
+> * Video files will have the same color space throughout the stream.
+> * Video files will have the same pixel format throughout the stream.
+> * Fine, videos will have the same video codec throughout the stream.
+> * The video and audio tracks will start at the same time.
+> * The video and audio tracks will both be present throughout the stream.
+> * I can start playing an audio file at the first decoded sample, and stop playing it at the last.
+> * Virtual timelines can be implemented on the demuxer level.
+> * Adjacent frames will have similar durations.
+> * All multimedia formats have easily identifiable headers.
+> * A file will never be a legal JPEG and MP3 at the same time.
+> * Applying heuristics to guess the right filetype is easy.
