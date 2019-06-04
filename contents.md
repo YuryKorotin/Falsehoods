@@ -289,3 +289,22 @@
 > * All multimedia formats have easily identifiable headers.
 > * A file will never be a legal JPEG and MP3 at the same time.
 > * Applying heuristics to guess the right filetype is easy.
+
+### Falsehoods programmers believe about image scaling
+
+> * The GPU's built-in bilinear scaling is sufficient for everybody.
+> * Bicubic scaling is sufficient for everybody.
+> * The image can be just scaled in its native color space.
+> * I should linearize before scaling.
+> * I shouldn't linearize before scaling.
+> * Upscaling is the same as downscaling.
+> * The quality of scaling algorithms can be objectively measured.
+> * The slower a scaling algorithm is to compute, the better it will be.
+> * Upscaling algorithms can invent information that doesn't exist in the image.
+> * My scaling ratio is going to be the same in the x axis and the y axis.
+> * Chroma upscaling isn't as important as luma upscaling.
+> * Chroma and luma can/should be scaled separately.
+> * I can ignore sub-pixel offsets when scaling and aligning planes.
+> * I should always take sub-pixel offsets into account when scaling.
+> * Images contain no information above the Nyquist frequency.
+> * Images contain no information outside the TV signal range.
