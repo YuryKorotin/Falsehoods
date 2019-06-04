@@ -291,7 +291,6 @@
 > * Applying heuristics to guess the right filetype is easy.
 
 ### Falsehoods programmers believe about image scaling
-
 > * The GPU's built-in bilinear scaling is sufficient for everybody.
 > * Bicubic scaling is sufficient for everybody.
 > * The image can be just scaled in its native color space.
