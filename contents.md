@@ -307,3 +307,29 @@
 > * I should always take sub-pixel offsets into account when scaling.
 > * Images contain no information above the Nyquist frequency.
 > * Images contain no information outside the TV signal range.
+
+### Falsehoods programmers believe about color spaces
+> * All colors are specified in (R,G,B) triples.
+> * All colors are specified in RGB or CMYK.
+> * All colors are specified in RGB, CMYK, HSV, HSL, YCbCr or XYZ.
+> * There is only one RGB color space.
+> * There is only one YCbCr color space for each RGB color space.
+> * There is only one YCbCr color space for each RGB color space up to linear isomorphism.
+> * An RGB triple unambiguously specifies a color.
+> * An RGB triple + primaries unambiguously specifies a color.
+> * A CIE XYZ triple unambiguously specifies a color.
+> * Black is RGB (0,0,0), and white is RGB (255,255,255).
+> * All color spaces have the same white point.
+> * Color spaces are defined by the RGB primaries and white point.
+> * My users are not going to notice the difference between BT.601 and BT.709.
+> * There’s only one BT.601 color space.
+> * TV range YCbCr is the same thing as TV range RGB.
+> * Full-range YCbCr doesn’t exist.
+> * Standards bodies can agree on what full-range YCbCr means.
+> * B-bit full range means the interval [0, 2^b-1].
+> * A full range 8-bit color value of 255 maps to the float 1.0.
+> * Color spaces are two-dimensional.
+> * "Linear light” means “linear light”.
+> * All gamma curves are well defined outside of the interval [0,1].
+> * HDR encoding is about making the image brighter.
+> * HDR encoding means darker blacks.
