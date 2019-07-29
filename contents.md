@@ -333,3 +333,29 @@
 > * All gamma curves are well defined outside of the interval [0,1].
 > * HDR encoding is about making the image brighter.
 > * HDR encoding means darker blacks.
+
+### Falsehoods programmers believe about color conversion
+> * I don’t need to convert an image’s colors before displaying it on the screen.
+> * All color spaces are just linearly related.
+> * There’s only one way to convert between color spaces.
+> * I can just clip out-of-gamut colors after conversion.
+> * There’s only one way to pull 10-bit colors up to 16-bit precision.
+> * Linearization happens after RGB conversion.
+> * I can freely convert between color spaces as long as I allow out-of-gamut colors.
+converting between color spaces is a mathematical process so it doesn’t depend on the display.
+> * Converting from A to B is just the inverse of converting from B to A.
+> * The OOTF is conceptually part of the OETF.
+> * The OOTF is conceptually part of the EOTF.
+> * All OOTFs are reversible.
+> * All CMMs implement color conversion correctly.
+> * All professional CMMs implement color conversion correctly.
+> * I don’t need to dither after converting if the target colorspace is the same bit depth or higher.
+> * Converting between bit depths is just a logical shift.
+> * Converting between bit depths is just a multiplication.
+> * All ICC profiles contain tables for conversion in both directions.
+> * HDR tone-mapping is well-defined.
+> * HDR tone-mapping is well-defined if you know the source and target display capabilities.
+> * HDR metadata will always match the video stream.
+> * You can easily convert between PQ and HLG.
+> * You can easily convert between PQ and HLG if you know the mastering display’s metadata.
+> * Converting from A to linear light to B gives you the same result as converting from A to B.

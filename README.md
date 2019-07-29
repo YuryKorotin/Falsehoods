@@ -26,7 +26,7 @@ Such repositories as ["Curated list of falsehoods programmers believe in"](https
 - [X] Falsehoods about video/image files
 - [X] Falsehoods about image scaling
 - [X] Falsehoods about color spaces
-- [ ] Falsehoods about color conversion
+- [X] Falsehoods about color conversion
 - [ ] Falsehoods about video output
 - [ ] Falsehoods about dusplays
 - [ ] Falsehoods about subtitles
