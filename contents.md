@@ -29,6 +29,7 @@
 
 ### Falsehoods programmers believe about names
 
+
 > * An address will start with, or at least include, a building number.
 > * When there is a building number, it will be all-numeric.
 > * No buildings are numbered zero.
@@ -228,6 +229,7 @@
 > * Video decoding is easily parallelizable.
 
 ### Falsehoods programmers believe about video playback
+
 > * The display's refresh rate will be an integer multiple of the video file's frame rate.
 > * The display's clock will be in sync with the audio clock.
 > * I can accurately measure the display's clock.
@@ -260,6 +262,7 @@
 > * Users will not notice if I skip a video frame when pausing.
 
 ### Falsehoods programmers believe about video/image files
+
 > * All video files have 8-bit per channel color.
 > * All video files have 8-bit or 10-bit per channel color.
 > * Fine, but at least all channels are going to have the same number of bits.
@@ -291,6 +294,7 @@
 > * Applying heuristics to guess the right filetype is easy.
 
 ### Falsehoods programmers believe about image scaling
+
 > * The GPU's built-in bilinear scaling is sufficient for everybody.
 > * Bicubic scaling is sufficient for everybody.
 > * The image can be just scaled in its native color space.
@@ -309,6 +313,7 @@
 > * Images contain no information outside the TV signal range.
 
 ### Falsehoods programmers believe about color spaces
+
 > * All colors are specified in (R,G,B) triples.
 > * All colors are specified in RGB or CMYK.
 > * All colors are specified in RGB, CMYK, HSV, HSL, YCbCr or XYZ.
@@ -335,6 +340,7 @@
 > * HDR encoding means darker blacks.
 
 ### Falsehoods programmers believe about color conversion
+
 > * I don’t need to convert an image’s colors before displaying it on the screen.
 > * All color spaces are just linearly related.
 > * There’s only one way to convert between color spaces.
@@ -342,7 +348,7 @@
 > * There’s only one way to pull 10-bit colors up to 16-bit precision.
 > * Linearization happens after RGB conversion.
 > * I can freely convert between color spaces as long as I allow out-of-gamut colors.
-converting between color spaces is a mathematical process so it doesn’t depend on the display.
+> * Converting between color spaces is a mathematical process so it doesn’t depend on the display.
 > * Converting from A to B is just the inverse of converting from B to A.
 > * The OOTF is conceptually part of the OETF.
 > * The OOTF is conceptually part of the EOTF.
